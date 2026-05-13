@@ -1,0 +1,10 @@
+services:
+  homepage:
+    build: .
+    restart: unless-stopped
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

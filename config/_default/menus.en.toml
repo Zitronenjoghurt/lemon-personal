@@ -5,7 +5,13 @@ none = "none"
 name = "Dev Diary"
 pageRef = "dev-diary"
 identifier = "Oc3jmeTSYU"
-weight = 9_999
+weight = 1
+
+[[main]]
+name = "Demos"
+pageRef = "demos"
+identifier = "2ReCTOBqWu"
+weight = 2
 
 [[footer]]
 none = "none"

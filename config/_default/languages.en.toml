@@ -21,6 +21,6 @@ mastodon = "https://mastodon.social/@zitronenjoghurt"
 
 ["params.author"]
 image = "117850085.png"
-headline = "This is the place where I will share all the things I find interesting or fun"
+headline = "This is the place where I share all the things I find interesting or fun"
 name = "Zitronenjoghurt"
 bio = ""

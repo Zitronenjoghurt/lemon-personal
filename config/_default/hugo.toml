@@ -56,3 +56,6 @@ toLower = false
   name = "fragmentrefs"
   type = "fragments"
   weight = 10
+
+[params]
+mainSections = ["dev-diary", "demos"]
