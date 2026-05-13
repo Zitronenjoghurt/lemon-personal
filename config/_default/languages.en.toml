@@ -1,0 +1,25 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "Lemon Industries"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+logo = "lemon-industries.png"
+description = "The official page for all my shenanigans."
+copyright = "© Zitronenjoghurt 2026"
+
+[[params.author.links]]
+github = "https://github.com/Zitronenjoghurt"
+
+[[params.author.links]]
+mastodon = "https://mastodon.social/@zitronenjoghurt"
+
+["params.author"]
+image = "117850085.png"
+headline = " "
+name = "Zitronenjoghurt"
