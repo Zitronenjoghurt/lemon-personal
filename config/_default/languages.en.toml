@@ -9,7 +9,7 @@ displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
-logo = "lemon-industries.png"
+logo = "lemon-industries-logo.png"
 description = "The official page for all my shenanigans."
 copyright = "© Zitronenjoghurt 2026"
 
@@ -21,5 +21,6 @@ mastodon = "https://mastodon.social/@zitronenjoghurt"
 
 ["params.author"]
 image = "117850085.png"
-headline = " "
+headline = "This is the place where I will share all the things I find interesting or fun"
 name = "Zitronenjoghurt"
+bio = ""

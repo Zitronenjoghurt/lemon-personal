@@ -1,10 +1,10 @@
-colorScheme = "blowfish"
+colorScheme = "slate"
 defaultAppearance = "dark"
 autoSwitchAppearance = true
-enableA11y = false
+enableA11y = true
 enableSearch = true
-enableCodeCopy = false
-enableStructuredBreadcrumbs = false
+enableCodeCopy = true
+enableStructuredBreadcrumbs = true
 replyByEmail = false
 disableImageOptimization = false
 disableImageOptimizationMD = false
@@ -13,21 +13,24 @@ hotlinkFeatureImage = false
 fingerprintAlgorithm = "sha512"
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v11.next.forgejo.org"
-firebase = { }
 fathomAnalytics = { }
 umamiAnalytics = { }
 selineAnalytics = { }
 buymeacoffee = { }
 rssnext = { }
 advertisement = { }
-showViews = ""
-robots = ""
+showViews = true
+robots = "index, follow"
+enableStyledScrollbar = ""
+highlightCurrentMenuArea = ""
+showLikes = true
 
 [verification]
 fediverse = "@zitronenjoghurt@mastodon.social"
+google = ""
 
 [header]
-layout = "basic"
+layout = "fixed-fill-blur"
 
 [footer]
 showMenu = true
@@ -37,8 +40,8 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "profile"
-showRecent = false
+layout = "background"
+showRecent = true
 showRecentItems = 5
 showMoreLink = false
 showMoreLinkDest = "/posts/"
@@ -46,18 +49,19 @@ cardView = false
 cardViewScreenWidth = false
 layoutBackgroundBlur = false
 disableHeroImageFilter = false
+homepageImage = "lemon-industries-bg.png"
 
 [article]
 showDate = true
-showViews = false
-showLikes = false
+showViews = true
+showLikes = true
 showDateOnlyInArticle = false
 showDateUpdated = false
-showAuthor = true
+showAuthor = false
 showHero = false
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
-showBreadcrumbs = false
+showBreadcrumbs = true
 showDraftLabel = true
 showEdit = false
 editAppendPath = true
@@ -66,25 +70,29 @@ showHeadingAnchors = true
 showPagination = true
 invertPagination = false
 showReadingTime = true
-showTableOfContents = false
-showTaxonomies = false
+showTableOfContents = true
+showTaxonomies = true
 showCategories = true
 showTags = true
 showCategoriesInSecondaryColor = false
 showAuthorsBadges = false
 showWordCount = true
-showZenMode = false
+showZenMode = true
+showAuthorBottom = true
+editURL = ""
+externalLinkForceNewTab = true
+showCategoryOnly = ""
 
 [list]
 showHero = false
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
-showBreadcrumbs = false
-showSummary = false
+showBreadcrumbs = true
+showSummary = true
 showViews = false
 showLikes = false
 showTableOfContents = false
-showCards = false
+showCards = true
 orderByWeight = false
 groupByYear = true
 cardView = false
@@ -103,16 +111,26 @@ showBreadcrumbs = false
 showViews = false
 showLikes = false
 showTableOfContents = false
-cardView = false
+cardView = true
 
 [term]
 showHero = false
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
-showBreadcrumbs = false
+showBreadcrumbs = true
 showViews = false
 showLikes = false
 showTableOfContents = true
 groupByYear = false
 cardView = false
 cardViewScreenWidth = false
+heroStyle = ""
+
+[firebase]
+authDomain = "lemon-industries-website.firebaseapp.com"
+apiKey = "AIzaSyCdZ2ifDa---WzGMvS-0XBdlqvztqEzcuY"
+projectId = "lemon-industries-website"
+storageBucket = "lemon-industries-website.firebasestorage.app"
+messagingSenderId = "758801983522"
+appId = "1:758801983522:web:04a3dd4b2d267e6b19827b"
+measurementId = ""
