@@ -6,7 +6,7 @@ draft: false
 description: "An article where I am talking about this website and another related new tool I worked on today."
 summary: "I am talking about this website and another related new tool I worked on today."
 categories: ["Lemon Industries Website", "File Valet"]
-tags: ["Hugo", "Blowfish", "Rust", "egui", "AVIF", "WEBP"]
+tags: ["hugo", "blowfish", "rust", "egui", "avif", "webp"]
 ---
 
 # New ventures
