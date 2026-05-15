@@ -3,7 +3,7 @@ title: "Dev Diary - Entry #2"
 date: 2026-05-14T16:15:26+02:00
 featureImage: https://media.lemon.industries/screenshot-20260514180636.png
 draft: false
-description: "A dev diary entry where I talk about progress in multi-threadding and establishing an SSH connection on my project 'File Valet'."
+description: "A dev diary entry where I talk about progress in multi-threading and establishing an SSH connection on my project 'File Valet'."
 summary: "Today I have continued my work on File Valet, implementing multi-threading and the SSH connection."
 categories: ["File Valet"]
 tags: ["rust", "egui", "ssh", "avif", "threading"]
@@ -11,7 +11,7 @@ tags: ["rust", "egui", "ssh", "avif", "threading"]
 
 Today I properly started with File Valet (you can find more information about it in the last entry).
 
-# Multi-threading
+## Multi-threading
 
 Since egui can only draw the UI if the main thread isnt busy, we have to off-load all network operations to a separete thread. I always like encapsulating those shenanigans into their own struct for ease-of-use.
 
@@ -127,7 +127,7 @@ Overall, I think thats a nice way of handling multi-threaded tasks when dealing 
 
 ---
 
-# SSH connection
+## SSH connection
 
 The connection establishment itself will be pretty primitive for now. You just create a TCP connection, hand it to an `ssh2::Session` and youre (almost) done.
 ```rs
@@ -173,7 +173,7 @@ This is how it looks in the UI at the moment. It will also show little toasts in
 
 ---
 
-# Upload process
+## Upload process
 
 For uploading the files to my remote directory I will just use SCP over the SSH connection we already established, with the `ssh2` crate this is relatively trivial. I am sending the data over in 128KB chunks to get a nice upload progress bar.
 ```rs
